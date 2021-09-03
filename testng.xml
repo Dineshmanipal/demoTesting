@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Sample test Suite">
+   <test name = "Elearning Domain">
+      <classes>
+      <class name = "com.training.SanityTest.RegisterTest" />
+         <class name = "com.training.SanityTest.LoginTest" />
+         <class name = "com.training.SanityTest.PasswordResetTest" />
+      </classes>
+   </test>
+</suite>	
